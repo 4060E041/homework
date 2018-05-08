@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+void ShowMessage();
+void ShowAge(); 
+void ShowIndex();
+int main()
+{
+	ShowMessage(); 
+	ShowAge(); 
+	ShowIndex(); 
+}
+	void ShowMessage()
+		{
+			cout << "HelloTeacher" << endl;
+		}
+	void ShowAge()
+		{
+			int iAge=18;
+			cout << "age :" << iAge << endl;
+		}
+	void ShowIndex()
+		{
+			int iIndex=41;
+			cout << "number :" << iIndex << endl;
+		}
+/*HelloTeacher
+age :18
+number :41
+
+--------------------------------
+Process exited after 0.04255 seconds with return value 0
+請按任意鍵繼續 . . .
+*/
